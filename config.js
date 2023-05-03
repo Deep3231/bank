@@ -2,11 +2,11 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
 
 	multipleStatements: true,
-	host     : 'mysql-123082-0.cloudclusters.net',
+	host     : 'mysql-124501-0.cloudclusters.net',
 	user     : 'admin',
-	password : 'J4lcZVEe',
+	password : 'gAn4bJTi',
 	database : 'paynum',
-	port:'18318'
+	port:'17868'
 });
 
 connection.connect(function(err){
